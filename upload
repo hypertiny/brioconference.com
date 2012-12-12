@@ -1,2 +1,2 @@
-s3cmd sync public/* s3://2012.brioconference.com -P
+s3cmd sync public/* s3://2013.brioconference.com -P
 
