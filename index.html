@@ -2,8 +2,109 @@
 <html>
 <head>
   <title>Brio: a conference about leadership and modern team development</title>
-  <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width">
+  <style>
+      body {
+      background: #faf8f6;
+      color: #0f3746;  
+      font-family: "Chaparral Pro", "Georgia", serif;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+    }
+
+    h2, h3, h4 {
+      font-weight: normal;
+    }
+
+/*    a:link, a:visited {
+      color: #0278b0;
+    }*/
+
+    header img {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      margin-left: -100px;
+    }
+
+    h2 {
+      font-size: 36px;
+      margin: 20px auto 10px auto;
+    }
+
+    section {
+      background-image: url(texture.jpg);
+      -webkit-box-shadow: inset rgba(0,0,0,.2) 0 0 7px;
+      margin-top: 122px;
+      padding: 40px 0 10px 0;
+    }
+
+    div {
+      padding: 20px;
+    }
+
+    input, button {
+      width: 200px;
+    }
+
+    form {
+      margin: 10px 0 30px 0;
+    }
+
+    input {
+      font-size: 16px;
+      padding: 5px;
+      border-radius: 3px;
+      -webkit-box-shadow: inset rgba(0,0,0,.2) 0 0 7px;
+      border: 1px solid #d3d3d3;
+      margin-right: 10px;
+      text-align: center;
+      font-family: "Chaparral Pro", "Georgia", serif;
+      color: #0f3746; 
+      font-size: 24px;
+    }
+
+    footer {
+      margin: 40px 0;
+    }
+
+    footer a {
+      color: #0f3746;
+      text-decoration: none;
+    }
+
+    button {
+      background: #ff8e08;
+      border: 3px solid #fea945;
+      border-radius: 3px;
+      font-weight: 300;
+      color: #fff;
+      text-transform: lowercase;
+      font-family: "Chaparral Pro", "Georgia", serif;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    @media screen and (max-width: 500px) {
+      h2 {
+        width: 100%;
+        font-size: 30px;
+      }
+
+      h2 br {
+        display: inline;
+        margin-right: 5px;
+      }
+      input {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+      button {
+        font-size: 18px;
+        padding: 8px 10px;
+      }
+    </style>
 </head>
 <body>
   <header>
@@ -15,11 +116,12 @@
     <h2>Dublin, Ireland<br>April 10 &amp; 11</h2>
   </section>
   <div>
-    <form>
-      <input placeholder="" />
-      <button>Register interest</button>
+    <form accept-charset="UTF-8" action="https://tito.io/brio/brio/interested_users" method="post"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="HOWDYCSRF">
+      <input type="email" size="30" placeholder="email" name="interested_user[email]" />
+      <button type="submit">Register interest</button>
+    </form>
     <footer>
-      <p>Brought to you by <a href="http://twitter.com/paulca">Paul</a> &amp; <a href="">Adam</a></p>
+      <p>From <a href="http://twitter.com/paulca">Paul</a> of <a href="http://hypertiny.com">Hypertiny</a> + <a href="">Adam</a> of <a href="http://andyet.com">&yet</a></p>
     </footer>
   </div>
 </body>
