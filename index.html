@@ -1,12 +1,12 @@
 <!doctype html>
 <html>
 <head>
-  <title>Brio: a conference about leadership and modern team development</title>
+  <title>Brio: a conference about leadership and modern team development</title>  
   <meta name="viewport" content="width=device-width">
   <style>
       body {
-      background: #faf8f6;
-      color: #0f3746;  
+      background: #04303D;
+      color: #04303D;  
       font-family: "Chaparral Pro", "Georgia", serif;
       text-align: center;
       padding: 0;
@@ -17,27 +17,24 @@
       font-weight: normal;
     }
 
-/*    a:link, a:visited {
-      color: #0278b0;
-    }*/
-
     header img {
       position: absolute;
       left: 50%;
-      top: 0;
-      margin-left: -100px;
+      top: 30px;
+      margin-left: -80px;
     }
 
     h2 {
       font-size: 36px;
-      margin: 20px auto 10px auto;
+      margin: 30px auto 30px auto;
     }
 
     section {
       background-image: url(texture.jpg);
-      -webkit-box-shadow: inset rgba(0,0,0,.2) 0 0 7px;
-      margin-top: 122px;
-      padding: 40px 0 10px 0;
+      background-color: #F7F6F5;
+      margin-top: 0;
+      padding: 140px 0 10px 0;
+      background-size: 120px 120px;
     }
 
     div {
@@ -57,6 +54,8 @@
       padding: 5px;
       border-radius: 3px;
       -webkit-box-shadow: inset rgba(0,0,0,.2) 0 0 7px;
+      -moz-box-shadow: inset rgba(0,0,0,.2) 0 0 7px;
+      box-shadow: inset rgba(0,0,0,.2) 0 0 7px;
       border: 1px solid #d3d3d3;
       margin-right: 10px;
       text-align: center;
@@ -67,10 +66,11 @@
 
     footer {
       margin: 40px 0;
+      color: #fff;
     }
 
     footer a {
-      color: #0f3746;
+      color: #fff;
       text-decoration: none;
     }
 
@@ -86,6 +86,10 @@
       cursor: pointer;
     }
 
+    footer br {
+      display: none;
+    }
+
     @media screen and (max-width: 500px) {
       h2 {
         width: 100%;
@@ -95,6 +99,9 @@
       h2 br {
         display: inline;
         margin-right: 5px;
+      }
+      footer br {
+        display: inline;
       }
       input {
         margin-right: 0;
@@ -108,11 +115,11 @@
 </head>
 <body>
   <header>
-    <img src="brio.png" width="200px">
+    <img src="brio.png" width="160px" alt="Brio">
   </header>
   <section>
     <h2>A conference about leadership<br>&amp; modern team development.</h2>
-    <img src="ireland.png" alt="Dublin, Ireland" width="180px">
+    <img src="ireland.png" alt="Dublin, Ireland" width="170px">
     <h2>Dublin, Ireland<br>April 10 &amp; 11</h2>
   </section>
   <div>
@@ -121,7 +128,7 @@
       <button type="submit">Register interest</button>
     </form>
     <footer>
-      <p>From <a href="http://twitter.com/paulca">Paul</a> of <a href="http://hypertiny.com">Hypertiny</a> + <a href="">Adam</a> of <a href="http://andyet.com">&yet</a></p>
+      <p>From <br/><a href="http://twitter.com/paulca">Paul</a> of <a href="http://hypertiny.com">Hypertiny</a> and <a href="">Adam</a> of <a href="http://andyet.com">&yet</a></p>
     </footer>
   </div>
 </body>
