@@ -118,162 +118,74 @@
                     — Lao Tzu
 
 -->
+  <link rel="icon" href="icon.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <style>
-      body {
-      background: #04303D;
-      color: #04303D;  
-      font-family: "Chaparral Pro", "Georgia", serif;
-      text-align: center;
-      padding: 0;
-      margin: 0;
-    }
-
-    h2, h3, h4 {
-      font-weight: normal;
-    }
-
-    header img {
-      position: absolute;
-      left: 50%;
-      top: 30px;
-      margin-left: -80px;
-    }
-
-    h2 {
-      font-size: 36px;
-      margin: 30px auto 30px auto;
-    }
-
-    p {
-      width: 400px;
-      margin: 0 auto 20px auto;
-      font-size: 20px;
-    }
-
-    section {
-      background-image: url(texture.jpg);
-      background-color: #F7F6F5;
-      margin-top: 0;
-      padding: 140px 0 10px 0;
-      background-size: 120px 120px;
-    }
-
-    div {
-      padding: 20px;
-    }
-
-    input, button {
-      width: 200px;
-    }
-
-    form {
-      margin: 10px 0 30px 0;
-    }
-
-    input {
-      font-size: 16px;
-      padding: 5px;
-      border-radius: 3px;
-      -webkit-box-shadow: inset rgba(0,0,0,.2) 0 0 7px;
-      -moz-box-shadow: inset rgba(0,0,0,.2) 0 0 7px;
-      box-shadow: inset rgba(0,0,0,.2) 0 0 7px;
-      border: 1px solid #d3d3d3;
-      margin-right: 10px;
-      text-align: center;
-      font-family: "Chaparral Pro", "Georgia", serif;
-      color: #0f3746; 
-      font-size: 24px;
-    }
-
-    .ireland {
-      display: inline-block;
-      margin-right: 20px;
-      margin-left: 12px;
-      float: left;
-      position: relative;
-      top: -25px;
-    }
-
-    .location {
-      text-align: left;
-      width: 280px;
-      margin: 40px auto 20px auto;
-      clear: both;
-      height: 100px;
-      padding-top: 0px;
-      font-size: 24px;
-      border-top: 1px solid rgba(0,0,0,.1);
-      padding-top: 60px;
-    }
-
-    footer {
-      margin: 40px 0;
-      color: #fff;
-    }
-
-    footer a {
-      color: #fff;
-      text-decoration: none;
-    }
-
-    button {
-      background: #ff8e08;
-      border: 3px solid #fea945;
-      border-radius: 3px;
-      font-weight: 300;
-      color: #fff;
-      text-transform: lowercase;
-      font-family: "Chaparral Pro", "Georgia", serif;
-      font-size: 24px;
-      cursor: pointer;
-    }
-
-    footer br {
-      display: none;
-    }
-
-    @media screen and (max-width: 500px) {
-      h2 {
-        width: 100%;
-        font-size: 30px;
-      }
-      h2 br {
-        display: inline;
-        margin-right: 5px;
-      }
-      footer br {
-        display: inline;
-      }
-      input {
-        margin-right: 0;
-        margin-bottom: 20px;
-      }
-      button {
-        font-size: 18px;
-        padding: 8px 10px;
-      }
-    </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <img src="brio.png" width="160px" alt="Brio">
   </header>
   <section>
-    <h2>A conference about the future<br>of being entrepreneurial.</h2>
-    <p>Like you, we believe business can be a powerful tool to make the world better.</p>
-    <p>This conference <u>isn’t</u> about romanticizing entrepreneurship or funding a startup.</p>
-    <p>It’s about the vibrant spirit and ethic of businesses who care about people, think long-term, and seek to better the world within their sphere of influence.</p>
-    <p>We aim to provoke and sustain your idealism.</p>
-    <p></p>
-    <h3 class="location"><img class="ireland" src="ireland.png" alt="Dublin, Ireland" width="80px">Dublin, Ireland<br>April 9 &amp; 10</h3>
+    <h2>a conference about the future <br>of being entrepreneurial</h2>
+    <div id="intro">
+      <p>Like you, we believe business can be a powerful tool to make the world better.</p>
+      <p>This conference <u>isn’t</u> about romanticizing entrepreneurship or funding a startup.</p>
+      <p>It’s about the vibrant spirit and ethic of businesses who care about people, think long-term, and seek to better the world within their sphere of influence.</p>
+      <p>We aim to provoke and sustain your idealism.</p>
+    </div>
+    <h3 class="location"><img class="ireland" src="ireland.png" alt="Dublin, Ireland" width="80px">Dublin, Ireland<br>April 9 &amp; 10
+      <a href="https://tito.io/brio/brio">Tickets €299 &raquo;</a>
+    </h3>
+
   </section>
   <div>
-    <form accept-charset="UTF-8" action="https://tito.io/brio/brio/interested_users" method="post"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="HOWDYCSRF">
-      <input type="email" size="30" placeholder="email" name="interested_user[email]" />
-      <button type="submit">Register interest</button>
-    </form>
+    <article id="speakers">
+      <h2><span>Day 1</span> idealism</h2>
+      <p>One day of inspiring, mind-opening talks from:</p>
+      <div>
+        <h4>Amber Case</h4>
+        <img src="amber.jpg" width=300>
+        <p>Cyborg anthropologist and interface humanist Amber Case has been called one of <a href="http://www.fastcompany.com/1597216/amber-case-digital-philosopher">the Most Influential Women in Technology</a>.</p>
+        <p>Amber is a light of genuine passion and humble curiosity. Her insights on the intersection of people and technology have riveted conference audiences worldwide. Her thoughts on people and <em>business</em> are equally inspiring.</p>
+      </div>
+      <div>
+        <h4>Jan Lenhardt</h4>      
+        <img src="janl.jpg" width=300>
+        <p>&#8220;Dissatisfied with the status-quo&#8221; reads Jan's self-penned bio.<p>
+        <p>Fittingly called &#8220;the nicest person in open source&#8221;, he's a <a href="http://couchdb.apache.org/">CouchDB</a> author and the organizer of <a href="http://jsconf.eu">JSConf EU</a>.</p>
+        <p>Jan is a man of visible convictions and immense love.</p>
+      </div>
+      <div>
+        <h4>Boaz Sender</h4>
+        <img src="boaz.jpg" width=300>
+        <p>Boaz founded one of the Internet's most respected consultancies, <a href="http://bocoup.com">Bocoup</a>.</p>
+        <p>Anyone who's met Boaz knows he exudes warmth and hospitality. He's also a sharp-minded entrepreneur and deep thinker. If you haven't read <a href="http://boazsender.com/2012-10-30-how-bocoup-got-its-name.html">his moving post about his hero and mentor</a>, you're missing out.</p>
+      </div>
+      <div>
+        <h4>Diana Kimball</h4>
+        <img src="diana.jpg" width=300>
+        <p>Founder of the <a href="http://mentoring.is">/mentoring</a> movement, Diana is a 21st century career explorer who does all her learning in public.</p>
+        <p>Through her studies in real life and at Harvard, she has been developing her thoughts on what work and business look like for natives of the Internet.</p>
+      </div>
+      <div>
+        <h4>Zach Holman</h4>      
+        <img src="zach.jpg" width=300>
+        <p>As one of the earliest GitHub employees, Zach has a unique vantage point to describe the decisions choices along the way that have made GitHub a perfect example of an organization that fits the spirit of <em>Brio</em>.</p>
+        <p>Zach's never afraid to say what he thinks—and we're eager to hear it.</p>
+      </div>
+      <div>
+        <h4>Jan Carson</h4>      
+        <img src="janc.jpg" width=300>
+        <p>How do you bootstrap a sustainable art community with a budget of nearly nil?</p>
+        <p>Jan has been part of developing artist community in Portland, Oregon and now back in her native Belfast as community director for Ulster Hall, doing much with little for the good of the greater.</p>
+      </div>
+      <h2><span>Day 2</span> pragmatism</h2>
+      <p>Your contributions and insights will shape day two. It will be a full day of impromptu talks and discussions led by attendees.<p>
+      <p>It's not going to be enough to show up at <em>Brio</em>. We need you to bring your whole self—because we want to hear from you.<p>     
+      <p></p>
+    </article>
     <footer>
       <p>From <br/><a href="http://twitter.com/paulca">Paul</a> of <a href="http://hypertiny.com">Hypertiny</a> and <a href="http://twitter.com/adambrault">Adam</a> of <a href="http://andyet.com">&yet</a></p>
     </footer>

@@ -1,0 +1,241 @@
+  body {
+  background: #04303D;
+  color: #04303D;  
+  font-family: "Chaparral Pro", "Georgia", serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+h2, h3, h4 {
+  font-weight: normal;
+}
+
+header img {
+  position: absolute;
+  left: 50%;
+  top: 30px;
+  margin-left: -80px;
+}
+
+h2 {
+  font-size: 36px;
+  margin: 30px auto 30px auto;
+}
+
+p {
+  margin: 0 auto 20px auto;
+  font-size: 20px;
+}
+
+section {
+  background-image: url(texture.jpg);
+  background-color: #F7F6F5;
+  margin-top: 0;
+  padding: 140px 0 10px 0;
+  background-size: 120px 120px;
+}
+
+#intro, article > p {
+  width: 400px;
+  margin: 0 auto 20px auto;
+}
+
+article {
+  color: rgba(255,255,255,.7);
+  text-shadow: rgba(0,0,0,.8) 0 -1px 1px;
+  width: 800px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+article div {
+  float: left;
+  width: 300px;
+  height: 460px;
+  padding: 20px 30px;
+  margin: 20px 20px;
+  /*background-color: rgba(0,0,0,.1);*/
+  background-image: url(dark-texture.png);
+  border-bottom: 1px solid rgba(255,255,255,.07);
+  border-top: 1px solid rgba(0,0,0,.05);
+  text-align: left;
+}
+article h4 {
+  color: #fff;
+  font-size: 30px;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+article img {
+  display: block;
+  width: 300px;
+  height: 150px;
+  margin: 0 auto 20px auto;
+  border-bottom: 1px solid rgba(255,255,255,.07);
+  border-top: 1px solid rgba(0,0,0,.05);
+}
+
+article div p {
+  font-size: 18px;
+}
+article h2 {
+  clear: both;
+  color: #ff8e08;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+  padding: 0 0 10px 0;
+  margin: 20px;
+}
+article h2 span {
+  font-size: 16px;
+  color: rgba(255,255,255,.5);
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 10px;
+}
+
+article h2 span:before {
+  content: "— ";
+  color: rgba(255,255,255,.3);
+}
+
+article h2 span:after {
+  content: " —";
+  color: rgba(255,255,255,.3);
+}
+
+article div + h2 {
+  padding-top: 40px;
+}
+
+div {
+  padding: 20px;
+}
+
+a:link, a:visited {
+  color: #20beda;
+}
+
+input, button {
+  width: 200px;
+}
+
+form {
+  margin: 10px 0 30px 0;
+}
+
+input {
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset rgba(0,0,0,.2) 0 0 7px;
+  -moz-box-shadow: inset rgba(0,0,0,.2) 0 0 7px;
+  box-shadow: inset rgba(0,0,0,.2) 0 0 7px;
+  border: 1px solid #d3d3d3;
+  margin-right: 10px;
+  text-align: center;
+  font-family: "Chaparral Pro", "Georgia", serif;
+  color: #0f3746; 
+  font-size: 24px;
+}
+
+.ireland {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 12px;
+  float: left;
+  position: relative;
+  top: -8px;
+}
+
+.location {
+  text-align: left;
+  width: 280px;
+  margin: 20px auto 20px auto;
+  clear: both;
+  height: 100px;
+  padding: 60px 80px 0 80px;
+  font-size: 22px;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.location a:link, .location a:visited {
+  margin-top: 10px;
+  display: inline-block;
+  color: #ff8e08;
+}
+
+footer {
+  color: #fff;
+  width: 800px;
+  margin: 40px auto 0 auto;
+  padding: 20px 0 0px 0;
+}
+
+footer a:link, footer a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+button {
+  background: #ff8e08;
+  border: 3px solid #fea945;
+  border-radius: 3px;
+  font-weight: 300;
+  color: #fff;
+  text-transform: lowercase;
+  font-family: "Chaparral Pro", "Georgia", serif;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+footer br {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  h2 {
+    width: auto;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  h2 br {
+    display: none;
+    margin-right: 5px;
+  }
+  p {
+    font-size: 18px;
+  }  
+  footer br {
+    display: inline;
+  }
+  input {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  button {
+    font-size: 18px;
+    padding: 8px 10px;
+  }
+  .location {
+    padding: 60px 0px 0 0px;
+  }
+  #intro, article > p, footer {
+    width: auto;
+  }
+  article {
+    width: auto;
+    padding: 0;
+    margin: 0;
+  }
+  article div {
+    margin: 0 0 20px 0;
+    float: none;
+    width: auto;
+    height: auto;
+  }
+  article div img {
+    width: 100%;
+    height: auto;
+  }
