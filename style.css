@@ -14,7 +14,7 @@ h2, h3, h4 {
 header img {
   position: absolute;
   left: 50%;
-  top: 30px;
+  top: 90px;
   margin-left: -80px;
 }
 
@@ -24,7 +24,7 @@ h2 {
 }
 
 p {
-  margin: 0 auto 20px auto;
+  margin: 0 auto 15px auto;
   font-size: 20px;
 }
 
@@ -32,7 +32,7 @@ section {
   background-image: url(texture.jpg);
   background-color: #F7F6F5;
   margin-top: 0;
-  padding: 140px 0 10px 0;
+  padding: 220px 0 10px 0;
   background-size: 120px 120px;
 }
 
