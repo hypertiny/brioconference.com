@@ -239,3 +239,6 @@ footer br {
     width: 100%;
     height: auto;
   }
+  footer p {
+    font-size: 16px;
+  }
