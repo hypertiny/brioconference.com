@@ -137,7 +137,7 @@
     header img {
       position: absolute;
       left: 50%;
-      top: 30px;
+      top: 70px;
       margin-left: -80px;
     }
 
@@ -156,7 +156,7 @@
       background-image: url(texture.jpg);
       background-color: #F7F6F5;
       margin-top: 0;
-      padding: 140px 0 10px 0;
+      padding: 180px 0 10px 0;
       background-size: 120px 120px;
     }
 
@@ -236,12 +236,23 @@
 
     @media screen and (max-width: 500px) {
       h2 {
-        width: 100%;
+        display: block;
+        width: auto;
         font-size: 30px;
       }
+      h2 {
+        margin-left: 20px; 
+        margin-right: 20px;
+      }
+      p {
+        margin-left: 10px; 
+        margin-right: 10px;
+      }
       h2 br {
-        display: inline;
-        margin-right: 5px;
+        display: none;
+      }
+      footer p {
+        font-size: 16px;
       }
       footer br {
         display: inline;
@@ -254,6 +265,9 @@
         font-size: 18px;
         padding: 8px 10px;
       }
+      p {
+        width: auto;
+      }
     </style>
 </head>
 <body>
@@ -261,7 +275,7 @@
     <img src="brio.png" width="160px" alt="Brio">
   </header>
   <section>
-    <h2>a conference about the future<br>of being entrepreneurial</h2>
+    <h2>a conference about the future <br>of being entrepreneurial</h2>
     <p>Like you, we believe business can be a powerful tool to make the world better.</p>
     <p>This conference <u>isn’t</u> about romanticizing entrepreneurship or funding a startup.</p>
     <p>It’s about the vibrant spirit and ethic of businesses who care about people, think long-term, and seek to better the world within their sphere of influence.</p>
