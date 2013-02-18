@@ -197,8 +197,7 @@ footer br {
   h2 {
     width: auto;
     font-size: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 10px 20px;
   }
   h2 br {
     display: none;
