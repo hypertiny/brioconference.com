@@ -1,21 +1,9 @@
-<div>
-  <h4>Jan Lenhardt</h4>      
-  <img src="janl.jpg" width=300>
-  <p>&#8220;Dissatisfied with the status-quo&#8221; reads Jan's self-penned bio.<p>
-  <p>Fittingly called &#8220;the nicest person in open source&#8221;, he's a <a href="http://couchdb.apache.org/">CouchDB</a> author and the organizer of <a href="http://jsconf.eu">JSConf EU</a>.</p>
-  <p>Jan is a man of visible convictions and immense love.</p>
-</div>
+
 <div>
   <h4>Boaz Sender</h4>
   <img src="boaz.jpg" width=300>
   <p>Boaz founded one of the Internet's most respected consultancies, <a href="http://bocoup.com">Bocoup</a>.</p>
   <p>Anyone who's met Boaz knows he exudes warmth and hospitality. He's also a sharp-minded entrepreneur and deep thinker. If you haven't read <a href="http://boazsender.com/2012-10-30-how-bocoup-got-its-name.html">his moving post about his hero and mentor</a>, you're missing out.</p>
-</div>
-<div>
-  <h4>Diana Kimball</h4>
-  <img src="diana.jpg" width=300>
-  <p>Founder of the <a href="http://mentoring.is">/mentoring</a> movement, Diana is a 21st century career explorer who does all her learning in public.</p>
-  <p>Through her studies in real life and at Harvard, she has been developing her thoughts on what work and business look like for natives of the Internet.</p>
 </div>
 <div>
   <h4>Zach Holman</h4>      
