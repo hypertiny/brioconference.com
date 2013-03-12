@@ -1,6 +1,12 @@
-<div>
-  <h4>Jan Carson</h4>      
-  <img src="janc.jpg" width=300>
-  <p>How do you bootstrap a sustainable art community with a budget of nearly nil?</p>
-  <p>Jan has been part of developing artist community in Portland, Oregon and now back in her native Belfast as community director for Ulster Hall, doing much with little for the good of the greater.</p>
-</div>
+      <div>
+        <h4>Mikeal Rogers</h4>
+        <img src="mikeal.jpg" width=300>
+        <p>You probably know Mikeal as an influential Node.js developer and innovative <a href="http://nodeconf.com">conference</a> organizer. He&rsquo;s much more.</p>
+        <p>Mikeal&rsquo;s a deeply integrated thinker and <a href="http://www.futurealoof.com/">writer</a> who has a knack for gnawing on a topic and producing valuable insight—always from the perspective of putting <a href="http://www.futurealoof.com/posts/work-ethic-of-an-artist.html">people</a> and <a href="http://www.futurealoof.com/posts/hiring.html">organic</a> <a href="http://www.futurealoof.com/posts/companies-and-communities.html">community</a> <a href="http://www.futurealoof.com/posts/face-of-the-faceless.html">ahead</a> of everything else.</p>
+      </div>
+      <div>
+        <h4>Jan Carson</h4>      
+        <img src="janc.jpg" width=300>
+        <p>How do you bootstrap a sustainable art community with a budget of nearly nil?</p>
+        <p>Jan has been part of developing artist community in Portland, Oregon and now back in her native Belfast as community director for <a href="http://en.wikipedia.org/wiki/Ulster_Hall">Ulster Hall</a>, doing much with little for the good of the greater.</p>
+      </div>

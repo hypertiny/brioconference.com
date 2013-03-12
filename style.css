@@ -41,7 +41,7 @@ section {
   margin: 0 auto 20px auto;
 }
 
-article {
+article, aside {
   color: rgba(255,255,255,.7);
   text-shadow: rgba(0,0,0,.8) 0 -1px 1px;
   width: 800px;
@@ -79,7 +79,7 @@ article img {
 article div p {
   font-size: 18px;
 }
-article h2 {
+article h2, aside h2 {
   clear: both;
   color: #ff8e08;
   border-bottom: 1px solid rgba(255,255,255,.1);
@@ -193,6 +193,40 @@ footer br {
   display: none;
 }
 
+.people {
+  clear: both;
+}
+
+.people a {
+  float: left;
+  display: block;
+  position: relative;
+  width: 150px;
+  margin: 0 auto 20px auto;
+  font-size: 16px;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+ 
+.clearfix {
+  display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+  display: block;
+}
+ 
+* html .clearfix {
+  height: 1%;
+}
+
 @media screen and (max-width: 500px) {
   h2 {
     width: auto;
@@ -223,7 +257,7 @@ footer br {
   #intro, article > p, footer {
     width: auto;
   }
-  article {
+  article, aside {
     width: auto;
     padding: 0;
     margin: 0;
@@ -240,4 +274,8 @@ footer br {
   }
   footer p {
     font-size: 16px;
+  }
+
+  .people a {
+
   }
