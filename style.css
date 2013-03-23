@@ -1,7 +1,7 @@
   body {
   background: #04303D;
   color: #04303D;  
-  font-family: "Chaparral Pro", "Georgia", serif;
+  font-family: "Chaparral Pro", "chaparral-pro", "Georgia", serif;
   text-align: center;
   padding: 0;
   margin: 0;
@@ -26,6 +26,18 @@ h2 {
 p {
   margin: 0 auto 15px auto;
   font-size: 20px;
+}
+
+p + h2 {
+  padding-top: 80px !important;
+}
+
+.quote {
+  color: #fff;
+}
+
+.quote em {
+  color: rgba(255,255,255,.7);
 }
 
 section {
@@ -134,7 +146,7 @@ input {
   border: 1px solid #d3d3d3;
   margin-right: 10px;
   text-align: center;
-  font-family: "Chaparral Pro", "Georgia", serif;
+  font-family: "Chaparral Pro", "chaparral-pro", "Georgia", serif;
   color: #0f3746; 
   font-size: 24px;
 }
@@ -184,7 +196,7 @@ button {
   font-weight: 300;
   color: #fff;
   text-transform: lowercase;
-  font-family: "Chaparral Pro", "Georgia", serif;
+  font-family: "Chaparral Pro", "chaparral-pro", "Georgia", serif;
   font-size: 24px;
   cursor: pointer;
 }
