@@ -98,7 +98,7 @@ article h2, aside h2 {
   padding: 0 0 10px 0;
   margin: 20px;
 }
-article h2 span {
+article h2 span, h6 {
   font-size: 16px;
   color: rgba(255,255,255,.5);
   text-transform: uppercase;
@@ -175,6 +175,27 @@ input {
   margin-top: 10px;
   display: inline-block;
   color: #ff8e08;
+}
+
+.dayOne, .dayTwo {
+  height: auto;
+  display: inline-block;
+  text-align: center;
+}
+
+.dayOne h3, .dayTwo h3 {
+  font-size: 24px;
+  color: #fff;
+  width: 300px;
+}
+
+h6 {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.dayOne p, .dayTwo p {
+  margin-bottom: 5px;
 }
 
 footer {
